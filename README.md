@@ -2,11 +2,11 @@
 
 A dual-axis solar tracker that finds the brightest light and turns a panel toward it. Four light sensors (LDRs) are arranged in a quadrant, and two servo motors tilt and rotate the platform to keep it facing the sun. It also has a manual mode where two potentiometers control the servos by hand, switched with a push button.
 
-![Solar tracker prototype](assets/solar-tracker.png)
+![Solar tracker prototype](./assets/solar-tracker.jpg)
 
 > I lost all the completed vids on a device I lost. This is all I got!
 <p align="center">
-  <video src="assets/nd_arduino1.mp4" width="80%" controls></video>
+  <video src="./assets/nd_arduino1.mp4" width="80%" controls></video>
 </p>
 
 
