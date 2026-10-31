@@ -2,9 +2,13 @@
 
 A dual-axis solar tracker that finds the brightest light and turns a panel toward it. Four light sensors (LDRs) are arranged in a quadrant, and two servo motors tilt and rotate the platform to keep it facing the sun. It also has a manual mode where two potentiometers control the servos by hand, switched with a push button.
 
-![Solar tracker prototype](images/solar-tracker.png)
+![Solar tracker prototype](assets/solar-tracker.png)
 
-> Add a short demo video or GIF here if you have one.
+> I lost all the completed vids on a device I lost. This is all I got!
+<p align="center">
+  <video src="assets/nd_arduino1.mp4" width="80%" controls></video>
+</p>
+
 
 ## Features
 
@@ -60,7 +64,7 @@ Add a wiring diagram or circuit photo in the `images/` folder and link it here.
 2. The sketch only uses the built-in `Servo` library, so there is nothing extra to install.
 3. Clone this repository:
    ```bash
-   git clone https://github.com/Ehiejakhian/Solar-Tracker-Arduino.git
+   git clone https://github.com/Ehiejakhian/solar-tracker-esp32.git
    ```
 4. Open the sketch in the Arduino IDE, choose your board and port, and upload.
 5. Open the Serial Monitor at **9600 baud** to watch the readings.
